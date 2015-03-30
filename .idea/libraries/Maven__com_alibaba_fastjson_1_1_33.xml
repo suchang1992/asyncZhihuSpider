@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba:fastjson:1.1.33">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.33/fastjson-1.1.33.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/asyn4j for java 1.4/asyn4j for java 1.4/asyn4j.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/asyn4j for java 1.4/asyn4j for java 1.4/backport-util-concurrent.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.33/fastjson-1.1.33-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.1.33/fastjson-1.1.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
