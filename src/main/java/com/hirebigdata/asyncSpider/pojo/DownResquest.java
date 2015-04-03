@@ -3,21 +3,28 @@ package com.hirebigdata.asyncSpider.pojo;
 /**
  * Created by sc on 2015/3/30.
  */
-public class Resource {
+public class DownResquest {
     int flag;
-    String user_data_id;
-    String url_name;
-    String data;
+    String user_data_id = "";
+    String url_name = "";
+    int page;
 
-    public Resource(int flag, String user_data_id) {
+    public DownResquest(int flag, String user_data_id) {
         this.flag = flag;
         this.user_data_id = user_data_id;
     }
 
-    public Resource(int flag, String user_data_id, String data) {
+    public DownResquest(int flag, String user_data_id, String url_name) {
         this.flag = flag;
         this.user_data_id = user_data_id;
-        this.data = data;
+        this.url_name = url_name;
+    }
+
+    public DownResquest(int flag, String user_data_id, String url_name, int page) {
+        this.flag = flag;
+        this.user_data_id = user_data_id;
+        this.url_name = url_name;
+        this.page = page;
     }
 
     public int getFlag() {
@@ -44,11 +51,11 @@ public class Resource {
         this.url_name = url_name;
     }
 
-    public String getData() {
-        return data;
+    public int getPage() {
+        return page;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setPage(int page) {
+        this.page = page;
     }
 }
